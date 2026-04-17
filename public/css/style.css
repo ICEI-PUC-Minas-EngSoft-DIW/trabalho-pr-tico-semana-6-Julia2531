@@ -23,7 +23,7 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-/* Títulos das seções */
+
 .section-title {
     background: #fff;
     border: 2px solid var(--border-color);
@@ -33,7 +33,7 @@ body {
     display: inline-block;
 }
 
-/* Sombras e transições unificadas */
+
 .custom-shadow {
     box-shadow: 0 4px 12px rgba(0,0,0,0.05);
     border: none;
@@ -45,7 +45,7 @@ body {
     box-shadow: 0 8px 20px rgba(0,0,0,0.05);
 }
 
-/* Imagens dos Posts */
+
 .avatar {
     width: 50px;
     height: 50px;
@@ -59,14 +59,15 @@ body {
     height: 100px;
     object-fit: cover;
 }
-
-/* Botões Customizados */
 .btn-goals {
-    padding: 10px 30px;
-    background: #ccc;
-    border: 1px solid #ddd;
+    background-color: var(--secundary-orange);
+    color: #000;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 8px;
+    transition: all 0.2s ease-in-out;
+    text-align: center;
     cursor: pointer;
-    border-radius: 4px;
 }
 
 .btn-participate, .tip-item, .btn-invite {
@@ -91,7 +92,7 @@ body {
     filter: brightness(1.1);
 }
 
-/* Ajuste específico para garantir que a imagem do post ocupe a largura toda no celular */
+
 @media (max-width: 576px) {
     .post-img {
         width: 100%;
