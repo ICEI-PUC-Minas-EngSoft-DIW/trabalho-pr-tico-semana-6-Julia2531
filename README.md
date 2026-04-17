@@ -8,18 +8,20 @@ No trabalho dessa semana vamos alterar o projeto para que a responsividade da ho
 
 ## Informações Gerais
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+- Nome:Julia Vitória Santiago Assunção 
+- Matricula:927613
+- Proposta de projeto escolhida:Runmatch
+- Breve descrição sobre seu projeto: Site para corredores que desejam fazer conexões com outros corredores
 
 ## Print da versão responsiva com Bootstrap [DESKTOP]
 
-<<  COLOQUE A IMAGEM AQUI >>
+![Print desktop](/public/img/printdesktop1.png)
+![Print desktop](/public/img/printdesktop2.png)
 
 ## Print da versão responsiva com Bootstrap [MOBILE] (*)
 
-<<  COLOQUE A IMAGEM AQUI >>
+![Print mobile](/public/img/printmobile1.png)
+![Print mobile](/public/img/printmobile2.png)
 
 
 (*) Utilize as ferramentas do desenvolvedor do seu navegador para colocar no modo reponsivo, escolha um celular qualquer e recarregue a página antes de tirar o print. 
