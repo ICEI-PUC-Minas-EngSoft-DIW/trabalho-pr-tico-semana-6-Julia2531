@@ -63,11 +63,27 @@ body {
     background-color: var(--secundary-orange);
     color: #000;
     border: none;
-    padding: 8px 15px;
+
     border-radius: 8px;
     transition: all 0.2s ease-in-out;
-    text-align: center;
-    cursor: pointer;
+    /* Alinhamento e Tamanho */
+  display: inline-block;
+  padding: 10px 30px; /* Ajuste conforme necessário */
+  font-family: Arial, sans-serif; /* Ou sua fonte */
+  font-weight: bold;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 50px; 
+  background-color: #a8e6a3; 
+  color: #1a3c1a; 
+  transition: background-color 0.4s ease, color 0.4s ease;
+}
+
+.btn-goals:hover {
+  background-color: #a8e6a3; 
+  color: #ffffff; 
 }
 
 .btn-participate, .tip-item, .btn-invite {
