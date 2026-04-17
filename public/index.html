@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RunFriends - Comunidade de Corrida</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="d-flex flex-column min-vh-100">
+
+    <header class="main-header sticky-top py-3 shadow-sm" style="background-color: var(--primary-orange);">
+        <div class="header-container container d-flex flex-column flex-md-row justify-content-between align-items-center gap-3">
+            <h1 class="logo m-0 fs-3">Runmatch👟</h1>
+
+            <nav class="main-nav">
+                <ul class="d-flex flex-wrap justify-content-center list-unstyled m-0 p-0 gap-3">
+                    <li><a href="#" class="text-dark fw-bold text-decoration-none">Home</a></li>
+                    <li><a href="#" class="text-dark fw-bold text-decoration-none">Feed</a></li>
+                    <li><a href="#" class="text-dark fw-bold text-decoration-none">Encontrar Corredores</a></li>
+                    <li><a href="#" class="text-dark fw-bold text-decoration-none">Grupos</a></li>
+                    <li><a href="#" class="text-dark fw-bold text-decoration-none">Eventos</a></li>
+                </ul>
+            </nav>
+
+            <form class="search-form d-flex w-100 w-md-auto">
+                <input type="text" class="form-control me-2" placeholder="Pesquisar...">
+                <button type="submit" class="btn btn-light border">🔍</button>
+            </form>
+        </div>
+    </header>
+
+    <div class="hero-banner position-relative w-100 overflow-hidden" style="height: 300px;">
+        <img src="https://th.bing.com/th/id/OIP.L-hjtHLIN9C5Af9wTff9bgHaEJ?w=322&h=180&c=7&r=0&o=7&dpr=1.5&pid=1.7&rm=3" alt="Pessoas correndo" class="w-100 h-100 object-fit-cover">
+        <button class="btn-goals position-absolute bottom-0 start-0 ms-4 mb-4 ms-md-5">Minhas Metas</button>
+    </div>
+
+    <main class="content-container container my-4 flex-grow-1">
+        <div class="row g-4">
+            
+            <div class="left-column col-lg-8">
+                <section class="section-posts mb-4">
+                    <h2 class="section-title h5">New Posts</h2>
+
+                    <div class="post-card bg-white p-3 rounded mb-4 custom-shadow hover-effect">
+                        <header class="post-header d-flex align-items-center gap-3 border-bottom pb-2">
+                            <img src="img/ana.webp" alt="User" class="avatar rounded-circle">
+                            <span class="fw-bold">Ana Couto - Belo Horizonte</span>
+                        </header>
+                        <div class="post-content d-flex flex-column flex-sm-row py-3 gap-3">
+                            <img src="img/corridaparq.webp" alt="Post image" class="post-img rounded">
+                            <p class="m-0 align-self-center">5KM hoje no parque foi com elas! 🥰</p>
+                        </div>
+                        <footer class="post-footer text-muted">
+                            <span class="me-3">🖤 120</span><span>💬 22</span>
+                        </footer>
+                    </div>
+
+                    <div class="post-card bg-white p-3 rounded mb-4 custom-shadow hover-effect">
+                        <header class="post-header d-flex align-items-center gap-3 border-bottom pb-2">
+                            <img src="img/saulo.webp" alt="User" class="avatar rounded-circle">
+                            <span class="fw-bold">Saulo Mota - Belo Horizonte</span>
+                        </header>
+                        <div class="post-content d-flex flex-column flex-sm-row py-3 gap-3">
+                            <img src="img/trilha.webp" alt="Post image" class="post-img rounded">
+                            <p class="m-0 align-self-center">Primeira trilha, muito top!🤩</p>
+                        </div>
+                        <footer class="post-footer text-muted">
+                            <span class="me-3">🖤 120</span> <span>💬 22</span>
+                        </footer>
+                    </div>
+                </section>
+
+                <section class="section-challenges">
+                    <h2 class="section-title h5">Desafio da Semana</h2>
+                    <div class="challenge-box bg-white p-4 rounded custom-shadow hover-effect">
+                        <div class="challenge-info d-flex flex-column flex-sm-row justify-content-between align-items-sm-center mb-3">
+                            <h3 class="h5 m-0">Correr 10 KM</h3>
+                            <button class="btn-participate mt-2 mt-sm-0">Participar</button>
+                        </div>
+                        <ul class="challenge-details list-unstyled text-muted m-0">
+                            <li>Participantes: 245 Corredores</li>
+                            <li>Até Domingo</li>
+                        </ul>
+                    </div>
+                </section>
+            </div>
+
+            <aside class="right-column col-lg-4">
+                <section class="section-tips mb-4">
+                    <h2 class="section-title h5">Dicas</h2>
+                    <nav class="tips-list bg-white p-3 rounded custom-shadow hover-effect">
+                        <ul class="list-unstyled m-0 p-0">
+                            <li><a href="#" class="tip-item d-block w-100 text-decoration-none">Como Começar a Correr</a></li>
+                            <li><a href="#" class="tip-item d-block w-100 text-decoration-none">Evite Lesões na Corrida</a></li>
+                            <li><a href="#" class="tip-item d-block w-100 text-decoration-none">5 Apps para Corredores</a></li>
+                        </ul>
+                    </nav>
+                </section>
+
+                <section class="section-nearby">
+                    <h2 class="section-title h5">Perto de Você</h2>
+                    <div class="user-nearby bg-white p-3 rounded custom-shadow hover-effect d-flex align-items-center gap-3">
+                        <img src="img/ricardo.webp" alt="Ricardo" class="rounded-circle object-fit-cover" style="width: 80px; height: 80px;">
+                        <div class="user-info">
+                            <strong class="d-block mb-1">Ricardo - BH</strong>
+                            <p class="m-0 text-muted small">Nível: intermediário</p>
+                            <p class="m-0 text-muted small mb-2">Distância: 8KM</p>
+                            <button class="btn-invite">Convidar Para Correr</button>
+                        </div>
+                    </div>
+                </section>
+            </aside>
+            
+        </div>
+    </main>
+
+    <footer class="main-footer text-center text-secondary py-4 mt-auto">
+        <p class="m-0">&copy; 2026 RunFriends - Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
